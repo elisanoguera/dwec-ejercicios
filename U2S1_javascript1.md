@@ -60,14 +60,15 @@ if (a + b < 4) {
 </details>
 
 
-## Ejercicio 3 - Funciones flecha
+## Ejercicio 3 - Funciones anónimas y funciones flecha
 
-Reemplace las expresiones de función con funciones de flecha en el código a continuación:
+Reemplazar las funciones anónimas con funciones de flecha en el siguiente código:
 
 ```javascript
+
     function ask(question, yes, no) {
-    if (confirm(question)) yes();
-    else no();
+        if (confirm(question)) yes();
+        else no();
     }
 
     ask(
