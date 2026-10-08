@@ -100,13 +100,13 @@ Reemplazar las funciones anónimas con funciones de flecha en el siguiente códi
 
 ## Ejercicio 4 - Parámetro rest y bucle for of
 
-Realizar una función llamada `sumAll` que devuelva la suma de todos los parámetros. El número de parámentros será variable. Utilizar un bucle de tipo `for of` para recorrer el `array`.
+Realizar una función llamada `sumAll` que devuelva la suma de todos los parámetros. El número de parámetros será variable. Utilizar un bucle de tipo `for of` para recorrer el `array`.
 
 <details>
 
   <summary>Solución:</summary>
 
-    ```javascript
+   ```javascript
         function sumAll(...args) { // args es el nombre del array
 
             let sum = 0;
@@ -119,5 +119,6 @@ Realizar una función llamada `sumAll` que devuelva la suma de todos los paráme
         sumAll(1); // 1
         sumAll(1, 2); // 3
         sumAll(1, 2, 3); // 6
-    ```
+   ```
+
 </details>
