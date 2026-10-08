@@ -2,7 +2,7 @@
 
 ## Ejercicio 1 - Operadores unarios
 
-¿Cuáles son los valores finales de todas las variables `a`, `b`, `c` y `d` después del código a continuación?
+¿Cuáles serían los valores de las variables `a`, `b`, `c` y `d` después de ejecutar el siguiente código?
 
 ```javascript
 let a = 1, b = 1;
