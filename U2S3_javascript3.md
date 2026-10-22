@@ -212,13 +212,13 @@ El modo estricto nos protege de este tipo de errores silenciosos, ya que prohíb
 
 La siguiente función espera recibir como parámetro un objeto con una propiedad denominada data. Sin embargo, puedes comprobar que si se llama a la función sin parámetros o con `null` se producirá un error. Modifica el código para que se capture dicho error y se muestre un mensaje en la consola con el que se indique el problema. En el caso de que produzca un error, la función deberá devolver `-1`.
 
-     ```javascript
+   ```javascript
 
       function procesar(mensaje) {
         return mensaje.data;
       }
 
-    ```
+   ```
 
 
 **Claves de resolución**
