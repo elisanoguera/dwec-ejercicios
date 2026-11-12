@@ -4,7 +4,7 @@
 
 ## Ejercicio 1 - Mostrar el contenido de un campo
 
-Crea un formulario con un único campo para introducir un nombre. Cada vez que el usuario modifique el contenido del campo, debe mostrarse debajo del formulario.
+Crea un formulario con un único campo para introducir un nombre y un botón. Cada vez que el usuario pulse el botón, se mostrará el contenido del campo debajo del formulario.
 
 A continuación se muestra el código *HTML* inicial:
 
@@ -48,7 +48,7 @@ A continuación se muestra el código *HTML* inicial:
     // Accedemos al elemento donde mostraremos el resultado
     const resultado = document.getElementById("resultado");
 
-    // Detectamos cualquier modificación del campo
+    // Creamos la función manejadora para el evento submit
     formulario.addEventListener("submit", function (event) {
 	   // Evita que la página se recargue
        event.preventDefault();
